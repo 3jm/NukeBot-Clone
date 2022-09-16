@@ -52,8 +52,8 @@ class nuke(commands.Cog):
     async def nuke(self, interaction: Interaction):
         await interaction.response.defer()
         view = View()
-        view.add_item(nukeButton(interaction.user.id))
         view.add_item(Confirm(interaction.user.id))
+        view.add_item(nukeButton(interaction.user.id))
         em = nextcord.Embed(
             description="Are you sure you want to nuke this channel?\nThis will affect your servers activity progress.",
             color=0xFFFF00
