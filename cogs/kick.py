@@ -1,21 +1,20 @@
 import nextcord
-from nextcord.ext import commands, application_checks
+from nextcord.ext import commands
 from nextcord import Interaction, SlashOption
 
-class ban(commands.Cog):
+class kick(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
     testing_guild_id = 1017999660603944960
 
     @nextcord.slash_command(guild_ids=[testing_guild_id], description="	Ban a specified user")
-    @application_checks.has_permissions(ban_members=True)
-    async def ban(self, interaction: Interaction, reason, member: nextcord.Member = SlashOption(name="member", description="Mention a user", required=True)):
+    async def kick(self, interaction: Interaction, reason, member: nextcord.Member = SlashOption(name="member", description="Mention a user", required=True)):
         await interaction.response.defer()
-        if interaction.user.guild_permissions.ban_members:
-            await member.ban(reason=reason)
+        if interaction.user.guild_permissions.kick_members:
+            await member.kick(reason=reason)
             em = nextcord.Embed(
-                description = f"{member.mention} has been banned for `{reason}`.",
+                description = f"{member.mention} has been kicked for `{reason}`.",
                 color = 0x202225
             )
             await interaction.followup.send(embed = em)
@@ -28,4 +27,4 @@ class ban(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(ban(bot))
+    bot.add_cog(kick(bot))

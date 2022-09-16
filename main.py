@@ -1,16 +1,7 @@
 import logging as log
-import nextcord, requests, json, os, time, datetime, asyncio, aiohttp, colorama, random, sys, pymongo, base64
-from platform import python_version
-from nextcord.ext import commands, tasks
-from nextcord import Interaction, SlashOption, ButtonStyle, Webhook, Member
-from nextcord.abc import GuildChannel
-from nextcord.ui import Button, View, Select
-from datetime import datetime, timedelta
-from aiohttp import request
-from aiohttp import ClientSession
-from colorama import Fore, Back, Style
-from captcha.image import ImageCaptcha
-from pymongo import MongoClient
+import nextcord, os, sys
+from nextcord.ext import commands
+from nextcord import Interaction
 
 
 # Logging config
@@ -62,6 +53,14 @@ def Bot():
         await bot.change_presence(activity=nextcord.Activity(type=nextcord.ActivityType.listening, name=f"Made by Blind#6637 | NukeBot Clone"))
         log.info('Bot is ready.')
         print("ready") 
+
+    @bot.event
+    async def on_command_error(interaction: Interaction, error):
+        if isinstance(error, commands.MissingPermissions):
+            em = nextcord.Embed(
+                description="you are missing required permissions to run this command."
+            )
+            await interaction.response.send_message(embed = em)
 
     try:
         log.info('Logging into bot...')

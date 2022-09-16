@@ -1,15 +1,6 @@
-import logging as log
-import nextcord, requests, json, os, time, asyncio, aiohttp, colorama, random, sys, pymongo, base64
-from platform import python_version
-from nextcord.ext import commands, tasks
-from nextcord import Interaction, SlashOption, ButtonStyle, Webhook, Member
-from nextcord.abc import GuildChannel
-from nextcord.ui import Button, View, Select
-from aiohttp import request
-from aiohttp import ClientSession
-from colorama import Fore, Back, Style
-from captcha.image import ImageCaptcha
-from pymongo import MongoClient
+import nextcord
+from nextcord.ext import commands
+from nextcord import Interaction, SlashOption
 
 class dontasktoask(commands.Cog):
     def __init__(self, bot):
