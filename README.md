@@ -10,3 +10,5 @@ NukeBot Clone is a project made specifically to bypass the official NukeBot prem
 
 # Current To-Do's
 - Add error handler & staff check to kick command
+- Add channel type check to nuke
+ex: if channel is a `Announcement` or `rule` channel alert the user they cannot nuke the channel 
