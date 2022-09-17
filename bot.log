@@ -3,3 +3,978 @@
 [2022-09-15 23:32:57,237] [237ms] [INFO] : Cleaning up after 1 tasks.
 [2022-09-15 23:32:57,297] [297ms] [INFO] : All tasks finished cancelling.
 [2022-09-15 23:32:57,297] [297ms] [INFO] : Closing the event loop.
+[2022-09-16 16:01:11,658] [658ms] [INFO] : ===================
+[2022-09-16 16:01:11,659] [659ms] [INFO] : Made by Blind#6637
+[2022-09-16 16:01:11,659] [659ms] [CRITICAL] : No token was passed! Exiting.
+[2022-09-16 22:44:30,976] [976ms] [INFO] : ===================
+[2022-09-16 22:44:30,977] [977ms] [INFO] : Made by Blind#6637
+[2022-09-16 22:44:30,977] [977ms] [CRITICAL] : No token was passed! Exiting.
+[2022-09-16 22:45:23,186] [186ms] [INFO] : ===================
+[2022-09-16 22:45:23,187] [187ms] [INFO] : Made by Blind#6637
+[2022-09-16 22:45:23,187] [187ms] [INFO] : Pre loading cogs...
+[2022-09-16 22:45:23,187] [187ms] [INFO] : All cogs pre loaded.
+[2022-09-16 22:45:23,198] [198ms] [INFO] : Logging into bot...
+[2022-09-16 22:45:23,199] [199ms] [INFO] : logging in using static token
+[2022-09-16 22:45:23,773] [773ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 22:45:23,935] [935ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-r8ks",{"micros":75195,"calls":["id_created",{"micros":490,"calls":[]},"session_lookup_time",{"micros":267,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-green-prd-2-175",{"micros":74176,"calls":["start_session",{"micros":40289,"calls":["discord-api-774668f686-f2vkb",{"micros":36303,"calls":["get_user",{"micros":12631},"get_guilds",{"micros":3147},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":574},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":27,"calls":[]},"presence_started",{"micros":425,"calls":[]},"guilds_started",{"micros":76,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":33308,"calls":[]},"connect_finished",{"micros":33312,"calls":[]},"build_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 93a99783cbeda2afe725d7dde31a94f6).
+[2022-09-16 22:45:23,936] [936ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 22:45:24,174] [174ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 22:45:24,174] [174ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 22:45:24,313] [313ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 22:45:24,313] [313ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 22:45:24,467] [467ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ping', 1, 1017999660603944960)
+[2022-09-16 22:45:25,934] [934ms] [INFO] : Bot is ready.
+[2022-09-16 22:45:51,001] [1ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 22:45:51,001] [1ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 22:45:59,878] [878ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 22:45:59,878] [878ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 22:46:29,118] [118ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 22:46:29,118] [118ms] [INFO] : Cleaning up tasks.
+[2022-09-16 22:46:29,118] [118ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-16 22:46:29,180] [180ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 22:46:29,180] [180ms] [INFO] : Closing the event loop.
+[2022-09-16 22:57:05,670] [670ms] [INFO] : ===================
+[2022-09-16 22:57:05,670] [670ms] [INFO] : Made by Blind#6637
+[2022-09-16 22:57:05,670] [670ms] [INFO] : Pre loading cogs...
+[2022-09-16 22:57:05,671] [671ms] [INFO] : All cogs pre loaded.
+[2022-09-16 22:57:05,679] [679ms] [INFO] : Logging into bot...
+[2022-09-16 22:57:05,680] [680ms] [INFO] : logging in using static token
+[2022-09-16 22:57:06,210] [210ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 22:57:06,410] [410ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-n747",{"micros":131891,"calls":["id_created",{"micros":720,"calls":[]},"session_lookup_time",{"micros":289,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-green-prd-2-112",{"micros":130197,"calls":["start_session",{"micros":79787,"calls":["discord-api-774668f686-2kl8p",{"micros":74691,"calls":["get_user",{"micros":18995},"get_guilds",{"micros":11028},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":32,"calls":[]},"presence_started",{"micros":41287,"calls":[]},"guilds_started",{"micros":97,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8967,"calls":[]},"connect_finished",{"micros":8972,"calls":[]},"build_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 7a70669b2a72a4cd17df33d3c6852ab9).
+[2022-09-16 22:57:06,413] [413ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 22:57:06,622] [622ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 22:57:06,623] [623ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 22:57:06,818] [818ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 22:57:06,818] [818ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 22:57:08,431] [431ms] [INFO] : Bot is ready.
+[2022-09-16 22:57:14,944] [944ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 22:57:14,945] [945ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 22:57:57,703] [703ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 22:57:57,704] [704ms] [INFO] : Cleaning up tasks.
+[2022-09-16 22:57:57,704] [704ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-16 22:57:57,809] [809ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 22:57:57,809] [809ms] [INFO] : Closing the event loop.
+[2022-09-16 22:57:58,652] [652ms] [INFO] : ===================
+[2022-09-16 22:57:58,652] [652ms] [INFO] : Made by Blind#6637
+[2022-09-16 22:57:58,652] [652ms] [INFO] : Pre loading cogs...
+[2022-09-16 22:57:58,653] [653ms] [INFO] : All cogs pre loaded.
+[2022-09-16 22:57:58,662] [662ms] [INFO] : Logging into bot...
+[2022-09-16 22:57:58,662] [662ms] [INFO] : logging in using static token
+[2022-09-16 22:57:59,309] [309ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 22:57:59,546] [546ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-gf6k",{"micros":162766,"calls":["id_created",{"micros":638,"calls":[]},"session_lookup_time",{"micros":369,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"discord-sessions-green-prd-2-140",{"micros":158818,"calls":["start_session",{"micros":59312,"calls":["discord-api-774668f686-2ls9l",{"micros":53274,"calls":["get_user",{"micros":9146},"get_guilds",{"micros":3264},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":544},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":39,"calls":[]},"presence_started",{"micros":32674,"calls":[]},"guilds_started",{"micros":92,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":66643,"calls":[]},"connect_finished",{"micros":66648,"calls":[]},"build_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 952552ee24267dbc15a54567443077e6).
+[2022-09-16 22:57:59,547] [547ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 22:57:59,870] [870ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 22:57:59,870] [870ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 22:58:00,058] [58ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 22:58:00,058] [58ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 22:58:01,559] [559ms] [INFO] : Bot is ready.
+[2022-09-16 22:58:06,177] [177ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 22:58:06,177] [177ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 22:58:40,372] [372ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 22:58:40,372] [372ms] [INFO] : Cleaning up tasks.
+[2022-09-16 22:58:40,372] [372ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-16 22:58:41,902] [902ms] [INFO] : Closing the event loop.
+[2022-09-16 22:59:41,022] [22ms] [INFO] : ===================
+[2022-09-16 22:59:41,022] [22ms] [INFO] : Made by Blind#6637
+[2022-09-16 22:59:41,022] [22ms] [INFO] : Pre loading cogs...
+[2022-09-16 22:59:41,024] [24ms] [INFO] : All cogs pre loaded.
+[2022-09-16 22:59:41,031] [31ms] [INFO] : Logging into bot...
+[2022-09-16 22:59:41,031] [31ms] [INFO] : logging in using static token
+[2022-09-16 22:59:42,398] [398ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 22:59:42,398] [398ms] [INFO] : Cleaning up tasks.
+[2022-09-16 22:59:42,398] [398ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-16 22:59:42,399] [399ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 22:59:42,399] [399ms] [INFO] : Closing the event loop.
+[2022-09-16 22:59:49,027] [27ms] [INFO] : ===================
+[2022-09-16 22:59:49,027] [27ms] [INFO] : Made by Blind#6637
+[2022-09-16 22:59:49,027] [27ms] [INFO] : Pre loading cogs...
+[2022-09-16 22:59:49,028] [28ms] [INFO] : All cogs pre loaded.
+[2022-09-16 22:59:49,037] [37ms] [INFO] : Logging into bot...
+[2022-09-16 22:59:49,037] [37ms] [INFO] : logging in using static token
+[2022-09-16 23:00:01,083] [83ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 23:00:03,608] [608ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-hqmr",{"micros":103146,"calls":["id_created",{"micros":590,"calls":[]},"session_lookup_time",{"micros":311,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-green-prd-2-136",{"micros":100972,"calls":["start_session",{"micros":57040,"calls":["discord-api-774668f686-k8ms8",{"micros":51797,"calls":["get_user",{"micros":16422},"get_guilds",{"micros":3651},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":5648},"authorized_ip_coro",{"micros":20}]}]},"starting_guild_connect",{"micros":70,"calls":[]},"presence_started",{"micros":2443,"calls":[]},"guilds_started",{"micros":84,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":41284,"calls":[]},"connect_finished",{"micros":41288,"calls":[]},"build_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":26,"calls":[]}]}]}] (Session ID: 7fb1cd61ddc4fb40fa206e83c3b62e92).
+[2022-09-16 23:00:03,609] [609ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 23:00:04,346] [346ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:00:04,346] [346ms] [INFO] : nextcord.Client: Interaction command not found, attempting to lazy load.
+[2022-09-16 23:00:04,346] [346ms] [INFO] : nextcord.Client: Basic signature matches, checking against raw payload.
+[2022-09-16 23:00:05,625] [625ms] [INFO] : Bot is ready.
+[2022-09-16 23:00:07,769] [769ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:00:07,769] [769ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 23:00:07,958] [958ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:00:07,958] [958ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 23:00:08,209] [209ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:00:08,209] [209ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 23:00:08,471] [471ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:00:08,472] [472ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 23:00:09,707] [707ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:00:09,707] [707ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:00:24,046] [46ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 23:00:24,046] [46ms] [INFO] : Cleaning up tasks.
+[2022-09-16 23:00:24,046] [46ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-16 23:00:24,238] [238ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 23:00:24,238] [238ms] [INFO] : Closing the event loop.
+[2022-09-16 23:00:35,203] [203ms] [INFO] : ===================
+[2022-09-16 23:00:35,203] [203ms] [INFO] : Made by Blind#6637
+[2022-09-16 23:00:35,203] [203ms] [INFO] : Pre loading cogs...
+[2022-09-16 23:00:35,204] [204ms] [INFO] : All cogs pre loaded.
+[2022-09-16 23:00:35,210] [210ms] [INFO] : Logging into bot...
+[2022-09-16 23:00:35,210] [210ms] [INFO] : logging in using static token
+[2022-09-16 23:00:35,993] [993ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 23:00:36,185] [185ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-8xsw",{"micros":114469,"calls":["id_created",{"micros":513,"calls":[]},"session_lookup_time",{"micros":313,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-green-prd-2-22",{"micros":112421,"calls":["start_session",{"micros":41025,"calls":["discord-api-774668f686-2fpg5",{"micros":37180,"calls":["get_user",{"micros":9308},"get_guilds",{"micros":3272},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":544},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":37,"calls":[]},"presence_started",{"micros":30878,"calls":[]},"guilds_started",{"micros":77,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":40354,"calls":[]},"connect_finished",{"micros":40359,"calls":[]},"build_ready",{"micros":20,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: f9e3f01e75af48fc880e0edc680b232b).
+[2022-09-16 23:00:36,188] [188ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 23:00:36,468] [468ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:00:36,468] [468ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 23:00:36,631] [631ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:00:36,631] [631ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 23:00:38,189] [189ms] [INFO] : Bot is ready.
+[2022-09-16 23:00:39,198] [198ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:00:39,198] [198ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:00:48,718] [718ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 23:00:48,718] [718ms] [INFO] : Cleaning up tasks.
+[2022-09-16 23:00:48,718] [718ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-16 23:00:48,774] [774ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 23:00:48,774] [774ms] [INFO] : Closing the event loop.
+[2022-09-16 23:02:58,616] [616ms] [INFO] : ===================
+[2022-09-16 23:02:58,617] [617ms] [INFO] : Made by Blind#6637
+[2022-09-16 23:02:58,617] [617ms] [INFO] : Pre loading cogs...
+[2022-09-16 23:02:58,618] [618ms] [INFO] : All cogs pre loaded.
+[2022-09-16 23:02:58,625] [625ms] [INFO] : Logging into bot...
+[2022-09-16 23:02:58,626] [626ms] [INFO] : logging in using static token
+[2022-09-16 23:02:59,066] [66ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 23:02:59,197] [197ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-4qv3",{"micros":57946,"calls":["id_created",{"micros":650,"calls":[]},"session_lookup_time",{"micros":582,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-green-prd-2-91",{"micros":55577,"calls":["start_session",{"micros":44047,"calls":["discord-api-774668f686-xfnxg",{"micros":39029,"calls":["get_user",{"micros":11057},"get_guilds",{"micros":2819},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1510},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":66,"calls":[]},"presence_started",{"micros":457,"calls":[]},"guilds_started",{"micros":100,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":10807,"calls":[]},"connect_finished",{"micros":10813,"calls":[]},"build_ready",{"micros":32,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 22929fd8bab7d9794cbf02ce8049bb9b).
+[2022-09-16 23:02:59,200] [200ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 23:02:59,494] [494ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:02:59,494] [494ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 23:02:59,618] [618ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:02:59,619] [619ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 23:02:59,764] [764ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('advertise', 1, 1017999660603944960)
+[2022-09-16 23:03:01,219] [219ms] [INFO] : Bot is ready.
+[2022-09-16 23:03:07,249] [249ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:03:07,249] [249ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:03:13,957] [957ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:03:13,957] [957ms] [INFO] : nextcord.Client: Calling your application command now advertise
+[2022-09-16 23:03:18,006] [6ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:03:18,006] [6ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:03:48,272] [272ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 23:03:48,272] [272ms] [INFO] : Cleaning up tasks.
+[2022-09-16 23:03:48,272] [272ms] [INFO] : Cleaning up after 3 tasks.
+[2022-09-16 23:03:48,332] [332ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 23:03:48,332] [332ms] [INFO] : Closing the event loop.
+[2022-09-16 23:03:49,957] [957ms] [INFO] : ===================
+[2022-09-16 23:03:49,957] [957ms] [INFO] : Made by Blind#6637
+[2022-09-16 23:03:49,958] [958ms] [INFO] : Pre loading cogs...
+[2022-09-16 23:03:49,959] [959ms] [INFO] : All cogs pre loaded.
+[2022-09-16 23:03:49,967] [967ms] [INFO] : Logging into bot...
+[2022-09-16 23:03:49,967] [967ms] [INFO] : logging in using static token
+[2022-09-16 23:03:50,587] [587ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 23:03:50,734] [734ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-r5m9",{"micros":71096,"calls":["id_created",{"micros":622,"calls":[]},"session_lookup_time",{"micros":380,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-green-prd-2-1",{"micros":62375,"calls":["start_session",{"micros":58104,"calls":["discord-api-774668f686-2pl8b",{"micros":53298,"calls":["get_user",{"micros":13863},"get_guilds",{"micros":11183},"send_scheduled_deletion_message",{"micros":17},"guild_join_requests",{"micros":3},"authorized_ip_coro",{"micros":22}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":305,"calls":[]},"guilds_started",{"micros":80,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":3776,"calls":[]},"connect_finished",{"micros":3782,"calls":[]},"build_ready",{"micros":24,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":23,"calls":[]}]}]}] (Session ID: 11a87e66507956e4b57aba1de61b09f4).
+[2022-09-16 23:03:50,741] [741ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 23:03:51,025] [25ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:03:51,025] [25ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 23:03:51,193] [193ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:03:51,194] [194ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 23:03:52,766] [766ms] [INFO] : Bot is ready.
+[2022-09-16 23:03:59,661] [661ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:03:59,661] [661ms] [INFO] : nextcord.Client: Calling your application command now advertise
+[2022-09-16 23:04:08,982] [982ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:04:08,982] [982ms] [INFO] : nextcord.Client: Calling your application command now advertise
+[2022-09-16 23:04:14,380] [380ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 23:04:14,381] [381ms] [INFO] : Cleaning up tasks.
+[2022-09-16 23:04:14,381] [381ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-16 23:04:14,438] [438ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 23:04:14,438] [438ms] [INFO] : Closing the event loop.
+[2022-09-16 23:04:33,606] [606ms] [INFO] : ===================
+[2022-09-16 23:04:33,606] [606ms] [INFO] : Made by Blind#6637
+[2022-09-16 23:04:33,606] [606ms] [INFO] : Pre loading cogs...
+[2022-09-16 23:04:33,607] [607ms] [INFO] : All cogs pre loaded.
+[2022-09-16 23:04:33,616] [616ms] [INFO] : Logging into bot...
+[2022-09-16 23:04:33,616] [616ms] [INFO] : logging in using static token
+[2022-09-16 23:04:35,582] [582ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 23:04:35,851] [851ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-pwn1",{"micros":130134,"calls":["id_created",{"micros":524,"calls":[]},"session_lookup_time",{"micros":425,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-green-prd-2-173",{"micros":128097,"calls":["start_session",{"micros":76003,"calls":["discord-api-774668f686-hh4rd",{"micros":72041,"calls":["get_user",{"micros":14595},"get_guilds",{"micros":12660},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":146},"authorized_ip_coro",{"micros":40}]}]},"starting_guild_connect",{"micros":38,"calls":[]},"presence_started",{"micros":372,"calls":[]},"guilds_started",{"micros":70,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":51573,"calls":[]},"connect_finished",{"micros":51578,"calls":[]},"build_ready",{"micros":16,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 468c31690a549fdace7f0a013255c755).
+[2022-09-16 23:04:35,853] [853ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 23:04:36,092] [92ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:04:36,092] [92ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 23:04:36,279] [279ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:04:36,279] [279ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 23:04:37,871] [871ms] [INFO] : Bot is ready.
+[2022-09-16 23:04:41,051] [51ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:04:41,051] [51ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:04:48,391] [391ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:04:48,391] [391ms] [INFO] : nextcord.Client: Calling your application command now advertise
+[2022-09-16 23:04:52,246] [246ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:04:52,246] [246ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:05:40,081] [81ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 23:05:40,081] [81ms] [INFO] : Cleaning up tasks.
+[2022-09-16 23:05:40,082] [82ms] [INFO] : Cleaning up after 3 tasks.
+[2022-09-16 23:05:40,148] [148ms] [INFO] : All tasks finished cancelling.
+[2022-09-16 23:05:40,148] [148ms] [INFO] : Closing the event loop.
+[2022-09-16 23:05:41,414] [414ms] [INFO] : ===================
+[2022-09-16 23:05:41,414] [414ms] [INFO] : Made by Blind#6637
+[2022-09-16 23:05:41,414] [414ms] [INFO] : Pre loading cogs...
+[2022-09-16 23:05:41,415] [415ms] [INFO] : All cogs pre loaded.
+[2022-09-16 23:05:41,424] [424ms] [INFO] : Logging into bot...
+[2022-09-16 23:05:41,424] [424ms] [INFO] : logging in using static token
+[2022-09-16 23:05:42,039] [39ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-16 23:05:42,359] [359ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-shn3",{"micros":246671,"calls":["id_created",{"micros":478,"calls":[]},"session_lookup_time",{"micros":355,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-green-prd-2-53",{"micros":244580,"calls":["start_session",{"micros":201649,"calls":["discord-api-774668f686-h27hc",{"micros":193572,"calls":["get_user",{"micros":36016},"get_guilds",{"micros":9259},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":35,"calls":[]},"presence_started",{"micros":596,"calls":[]},"guilds_started",{"micros":88,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":42157,"calls":[]},"connect_finished",{"micros":42163,"calls":[]},"build_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: a6f7008d62f1b02288a1f6e6d7c9b698).
+[2022-09-16 23:05:42,360] [360ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-16 23:05:42,730] [730ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:05:42,730] [730ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-16 23:05:42,846] [846ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-16 23:05:42,847] [847ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-16 23:05:44,372] [372ms] [INFO] : Bot is ready.
+[2022-09-16 23:05:51,226] [226ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:05:51,227] [227ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:05:58,328] [328ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:05:58,328] [328ms] [INFO] : nextcord.Client: Calling your application command now advertise
+[2022-09-16 23:06:01,442] [442ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:06:01,442] [442ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:07:43,758] [758ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-16 23:07:43,758] [758ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-16 23:08:22,802] [802ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-16 23:08:22,802] [802ms] [INFO] : Cleaning up tasks.
+[2022-09-16 23:08:22,802] [802ms] [INFO] : Cleaning up after 4 tasks.
+[2022-09-17 13:06:02,473] [473ms] [INFO] : ===================
+[2022-09-17 13:06:02,473] [473ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:06:02,473] [473ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:06:02,475] [475ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:06:02,485] [485ms] [INFO] : Logging into bot...
+[2022-09-17 13:06:02,485] [485ms] [INFO] : logging in using static token
+[2022-09-17 13:06:02,998] [998ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:06:03,170] [170ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-4j47",{"micros":98475,"calls":["id_created",{"micros":861,"calls":[]},"session_lookup_time",{"micros":552,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-green-prd-2-31",{"micros":94367,"calls":["start_session",{"micros":84322,"calls":["discord-api-6bcb86d44c-vx4wq",{"micros":74761,"calls":["get_user",{"micros":23079},"get_guilds",{"micros":5247},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":80,"calls":[]},"presence_started",{"micros":7664,"calls":[]},"guilds_started",{"micros":99,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":2139,"calls":[]},"connect_finished",{"micros":2145,"calls":[]},"build_ready",{"micros":24,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":30,"calls":[]}]}]}] (Session ID: 68c5e0fc338315b0412b78b52679bf44).
+[2022-09-17 13:06:03,171] [171ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:06:03,386] [386ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:06:03,386] [386ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:06:03,566] [566ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:06:03,566] [566ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:06:05,188] [188ms] [INFO] : Bot is ready.
+[2022-09-17 13:06:06,787] [787ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:06:06,787] [787ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 13:06:19,938] [938ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:06:19,938] [938ms] [INFO] : nextcord.Client: Calling your application command now advertise
+[2022-09-17 13:06:22,624] [624ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:06:22,624] [624ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 13:06:37,121] [121ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:06:37,121] [121ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:06:37,121] [121ms] [INFO] : Cleaning up after 3 tasks.
+[2022-09-17 13:06:37,186] [186ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:06:37,186] [186ms] [INFO] : Closing the event loop.
+[2022-09-17 13:07:18,801] [801ms] [INFO] : ===================
+[2022-09-17 13:07:18,801] [801ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:07:18,801] [801ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:07:18,802] [802ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:07:18,811] [811ms] [INFO] : Logging into bot...
+[2022-09-17 13:07:18,811] [811ms] [INFO] : logging in using static token
+[2022-09-17 13:07:19,340] [340ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:07:19,511] [511ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-bndk",{"micros":100589,"calls":["id_created",{"micros":775,"calls":[]},"session_lookup_time",{"micros":1634,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-green-prd-2-84",{"micros":95798,"calls":["start_session",{"micros":90019,"calls":["discord-api-6bcb86d44c-rvvlg",{"micros":77076,"calls":["get_user",{"micros":41394},"get_guilds",{"micros":4410},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":5068,"calls":[]},"guilds_started",{"micros":94,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":500,"calls":[]},"connect_finished",{"micros":506,"calls":[]},"build_ready",{"micros":24,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":23,"calls":[]}]}]}] (Session ID: baad8912914c35067dace97ce29668c2).
+[2022-09-17 13:07:19,512] [512ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:07:19,755] [755ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:07:19,755] [755ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:07:19,900] [900ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:07:19,901] [901ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:07:21,522] [522ms] [INFO] : Bot is ready.
+[2022-09-17 13:07:26,176] [176ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:07:26,176] [176ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 13:08:10,134] [134ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:08:10,134] [134ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:08:10,134] [134ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-17 13:08:10,194] [194ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:08:10,194] [194ms] [INFO] : Closing the event loop.
+[2022-09-17 13:08:11,403] [403ms] [INFO] : ===================
+[2022-09-17 13:08:11,404] [404ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:08:11,404] [404ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:08:11,404] [404ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:08:11,414] [414ms] [INFO] : Logging into bot...
+[2022-09-17 13:08:11,414] [414ms] [INFO] : logging in using static token
+[2022-09-17 13:08:11,864] [864ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:08:12,001] [1ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-5wxc",{"micros":73042,"calls":["id_created",{"micros":762,"calls":[]},"session_lookup_time",{"micros":4169,"calls":[]},"session_lookup_finished",{"micros":22,"calls":[]},"discord-sessions-green-prd-2-36",{"micros":66023,"calls":["start_session",{"micros":46029,"calls":["discord-api-6bcb86d44c-zwkl7",{"micros":35652,"calls":["get_user",{"micros":8740},"get_guilds",{"micros":2722},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":850},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":2170,"calls":[]},"guilds_started",{"micros":85,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":17624,"calls":[]},"connect_finished",{"micros":17628,"calls":[]},"build_ready",{"micros":23,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":26,"calls":[]}]}]}] (Session ID: 7f84e51134020c6edcfa8138a35a452c).
+[2022-09-17 13:08:12,009] [9ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:08:12,273] [273ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:08:12,273] [273ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:08:12,391] [391ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:08:12,391] [391ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:08:14,002] [2ms] [INFO] : Bot is ready.
+[2022-09-17 13:08:15,154] [154ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:08:15,154] [154ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 13:08:26,454] [454ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:08:26,454] [454ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:08:26,454] [454ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-17 13:08:26,528] [528ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:08:26,528] [528ms] [INFO] : Closing the event loop.
+[2022-09-17 13:15:46,197] [197ms] [INFO] : ===================
+[2022-09-17 13:15:46,197] [197ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:15:46,197] [197ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:15:46,199] [199ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:15:46,206] [206ms] [INFO] : Logging into bot...
+[2022-09-17 13:15:46,207] [207ms] [INFO] : logging in using static token
+[2022-09-17 13:15:46,764] [764ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:15:47,027] [27ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-36q5",{"micros":196068,"calls":["id_created",{"micros":795,"calls":[]},"session_lookup_time",{"micros":561,"calls":[]},"session_lookup_finished",{"micros":27,"calls":[]},"discord-sessions-green-prd-2-69",{"micros":178816,"calls":["start_session",{"micros":98417,"calls":["discord-api-6bcb86d44c-lwz7d",{"micros":88262,"calls":["get_user",{"micros":22594},"get_guilds",{"micros":12366},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":72,"calls":[]},"presence_started",{"micros":16599,"calls":[]},"guilds_started",{"micros":128,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":63519,"calls":[]},"connect_finished",{"micros":63523,"calls":[]},"build_ready",{"micros":37,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: c8176b0e5e2ac84fc9f546ee2ccde74b).
+[2022-09-17 13:15:47,034] [34ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:15:47,285] [285ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:15:47,285] [285ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:15:47,430] [430ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:15:47,430] [430ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:15:47,591] [591ms] [INFO] : nextcord.ConnectionState: Unknown command with signature ('advertise', 1, 1017999660603944960) failed signature check, removing.
+[2022-09-17 13:15:49,033] [33ms] [INFO] : Bot is ready.
+[2022-09-17 13:15:52,330] [330ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:15:52,330] [330ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:15:56,771] [771ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:15:56,771] [771ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:16:10,326] [326ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:16:10,326] [326ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:16:10,326] [326ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:16:10,449] [449ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:16:10,449] [449ms] [INFO] : Closing the event loop.
+[2022-09-17 13:16:30,394] [394ms] [INFO] : ===================
+[2022-09-17 13:16:30,394] [394ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:16:30,394] [394ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:16:30,395] [395ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:16:30,402] [402ms] [INFO] : Logging into bot...
+[2022-09-17 13:16:30,402] [402ms] [INFO] : logging in using static token
+[2022-09-17 13:16:30,945] [945ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:16:31,101] [101ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-ff9x",{"micros":88873,"calls":["id_created",{"micros":639,"calls":[]},"session_lookup_time",{"micros":441,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-green-prd-2-121",{"micros":87339,"calls":["start_session",{"micros":49599,"calls":["discord-api-6bcb86d44c-hw798",{"micros":41572,"calls":["get_user",{"micros":19295},"get_guilds",{"micros":2527},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":426},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":859,"calls":[]},"guilds_started",{"micros":80,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":36686,"calls":[]},"connect_finished",{"micros":36690,"calls":[]},"build_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 7002f0cabaf2a94462abcfec3cd78e63).
+[2022-09-17 13:16:31,118] [118ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:16:31,336] [336ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:16:31,336] [336ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:16:31,468] [468ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:16:31,468] [468ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:16:33,128] [128ms] [INFO] : Bot is ready.
+[2022-09-17 13:16:35,806] [806ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:16:35,806] [806ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:16:35,806] [806ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:16:35,866] [866ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:16:35,867] [867ms] [INFO] : Closing the event loop.
+[2022-09-17 13:16:54,210] [210ms] [INFO] : ===================
+[2022-09-17 13:16:54,210] [210ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:16:54,210] [210ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:16:54,212] [212ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:16:54,223] [223ms] [INFO] : Logging into bot...
+[2022-09-17 13:16:54,223] [223ms] [INFO] : logging in using static token
+[2022-09-17 13:16:54,666] [666ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:16:54,868] [868ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-5fxf",{"micros":134384,"calls":["id_created",{"micros":691,"calls":[]},"session_lookup_time",{"micros":418,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-green-prd-2-83",{"micros":132156,"calls":["start_session",{"micros":85101,"calls":["discord-api-6bcb86d44c-xmtwv",{"micros":79866,"calls":["get_user",{"micros":18745},"get_guilds",{"micros":4361},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":5060},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":291,"calls":[]},"guilds_started",{"micros":70,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":46603,"calls":[]},"connect_finished",{"micros":46608,"calls":[]},"build_ready",{"micros":13,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 5967b295c5638d163ae4d30f32ce4205).
+[2022-09-17 13:16:54,869] [869ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:16:55,113] [113ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:16:55,113] [113ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:16:55,249] [249ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:16:55,249] [249ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:16:56,873] [873ms] [INFO] : Bot is ready.
+[2022-09-17 13:17:03,079] [79ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:17:03,080] [80ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:17:03,080] [80ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:17:03,166] [166ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:17:03,167] [167ms] [INFO] : Closing the event loop.
+[2022-09-17 13:17:35,991] [991ms] [INFO] : ===================
+[2022-09-17 13:17:35,991] [991ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:17:35,991] [991ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:17:35,993] [993ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:17:36,001] [1ms] [INFO] : Logging into bot...
+[2022-09-17 13:17:36,001] [1ms] [INFO] : logging in using static token
+[2022-09-17 13:17:36,674] [674ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:17:36,861] [861ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-9fl1",{"micros":123210,"calls":["id_created",{"micros":672,"calls":[]},"session_lookup_time",{"micros":470,"calls":[]},"session_lookup_finished",{"micros":24,"calls":[]},"discord-sessions-green-prd-2-45",{"micros":120988,"calls":["start_session",{"micros":104316,"calls":["discord-api-6bcb86d44c-nfvxt",{"micros":94631,"calls":["get_user",{"micros":38462},"get_guilds",{"micros":11897},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":1350},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":39,"calls":[]},"presence_started",{"micros":371,"calls":[]},"guilds_started",{"micros":77,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16136,"calls":[]},"connect_finished",{"micros":16141,"calls":[]},"build_ready",{"micros":16,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 1c1913b2971998787b6183ed0c6e5c6c).
+[2022-09-17 13:17:36,863] [863ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:17:37,104] [104ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:17:37,104] [104ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:17:37,255] [255ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:17:37,255] [255ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:17:38,881] [881ms] [INFO] : Bot is ready.
+[2022-09-17 13:18:07,074] [74ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:18:07,074] [74ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:19:07,148] [148ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:19:07,148] [148ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:19:13,839] [839ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:19:13,839] [839ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:19:13,839] [839ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:19:13,981] [981ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:19:13,981] [981ms] [INFO] : Closing the event loop.
+[2022-09-17 13:20:08,605] [605ms] [INFO] : ===================
+[2022-09-17 13:20:08,605] [605ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:20:08,605] [605ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:20:08,606] [606ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:20:08,613] [613ms] [INFO] : Logging into bot...
+[2022-09-17 13:20:08,613] [613ms] [INFO] : logging in using static token
+[2022-09-17 13:20:09,394] [394ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:20:09,606] [606ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-x9bs",{"micros":87278,"calls":["id_created",{"micros":771,"calls":[]},"session_lookup_time",{"micros":380,"calls":[]},"session_lookup_finished",{"micros":9,"calls":[]},"discord-sessions-green-prd-2-94",{"micros":84231,"calls":["start_session",{"micros":36788,"calls":["discord-api-6bcb86d44c-nmvwt",{"micros":31147,"calls":["get_user",{"micros":10002},"get_guilds",{"micros":2865},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":73,"calls":[]},"presence_started",{"micros":27521,"calls":[]},"guilds_started",{"micros":100,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19677,"calls":[]},"connect_finished",{"micros":19683,"calls":[]},"build_ready",{"micros":35,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":29,"calls":[]}]}]}] (Session ID: dce51f385b7d5793804d39d26063ae22).
+[2022-09-17 13:20:09,607] [607ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:20:09,846] [846ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:20:09,846] [846ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:20:09,997] [997ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:20:09,997] [997ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:20:11,610] [610ms] [INFO] : Bot is ready.
+[2022-09-17 13:20:15,500] [500ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:20:15,500] [500ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:20:26,772] [772ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:20:26,772] [772ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:20:26,772] [772ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:20:26,841] [841ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:20:26,841] [841ms] [INFO] : Closing the event loop.
+[2022-09-17 13:20:37,600] [600ms] [INFO] : ===================
+[2022-09-17 13:20:37,600] [600ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:20:37,600] [600ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:20:37,602] [602ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:20:37,606] [606ms] [INFO] : Logging into bot...
+[2022-09-17 13:20:37,607] [607ms] [INFO] : logging in using static token
+[2022-09-17 13:20:38,030] [30ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:20:38,255] [255ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-gmjb",{"micros":150946,"calls":["id_created",{"micros":609,"calls":[]},"session_lookup_time",{"micros":727,"calls":[]},"session_lookup_finished",{"micros":20,"calls":[]},"discord-sessions-green-prd-2-175",{"micros":148178,"calls":["start_session",{"micros":113981,"calls":["discord-api-6bcb86d44c-gb4xg",{"micros":99409,"calls":["get_user",{"micros":30625},"get_guilds",{"micros":14036},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":34,"calls":[]},"presence_started",{"micros":21677,"calls":[]},"guilds_started",{"micros":117,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":12314,"calls":[]},"connect_finished",{"micros":12319,"calls":[]},"build_ready",{"micros":21,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: f2d3e8471970c4c1d053b1faf8b099fe).
+[2022-09-17 13:20:38,256] [256ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:20:38,490] [490ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:20:38,490] [490ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:20:38,639] [639ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:20:38,639] [639ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:20:40,266] [266ms] [INFO] : Bot is ready.
+[2022-09-17 13:20:42,409] [409ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:20:42,409] [409ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:20:44,505] [505ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:20:44,505] [505ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:20:44,505] [505ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:20:44,577] [577ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:20:44,578] [578ms] [INFO] : Closing the event loop.
+[2022-09-17 13:20:49,041] [41ms] [INFO] : ===================
+[2022-09-17 13:20:49,041] [41ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:20:49,041] [41ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:20:49,042] [42ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:20:49,047] [47ms] [INFO] : Logging into bot...
+[2022-09-17 13:20:49,047] [47ms] [INFO] : logging in using static token
+[2022-09-17 13:20:49,510] [510ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:20:49,715] [715ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-g8tf",{"micros":141575,"calls":["id_created",{"micros":633,"calls":[]},"session_lookup_time",{"micros":12192,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-136",{"micros":120964,"calls":["start_session",{"micros":101142,"calls":["discord-api-6bcb86d44c-8mzc7",{"micros":85765,"calls":["get_user",{"micros":25006},"get_guilds",{"micros":10259},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":372,"calls":[]},"guilds_started",{"micros":98,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19239,"calls":[]},"connect_finished",{"micros":19245,"calls":[]},"build_ready",{"micros":20,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 0fe9a8dcc33e1485fb131c8c9c1e4354).
+[2022-09-17 13:20:49,720] [720ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:20:50,141] [141ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:20:50,141] [141ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:20:50,824] [824ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:20:50,824] [824ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:20:51,727] [727ms] [INFO] : Bot is ready.
+[2022-09-17 13:20:53,161] [161ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:20:53,161] [161ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:21:26,027] [27ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:21:26,027] [27ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:23:01,762] [762ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:23:01,762] [762ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:23:16,220] [220ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:23:16,220] [220ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:23:16,220] [220ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:23:16,283] [283ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:23:16,283] [283ms] [INFO] : Closing the event loop.
+[2022-09-17 13:23:43,763] [763ms] [INFO] : ===================
+[2022-09-17 13:23:43,763] [763ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:23:43,763] [763ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:23:43,764] [764ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:23:43,769] [769ms] [INFO] : Logging into bot...
+[2022-09-17 13:23:43,770] [770ms] [INFO] : logging in using static token
+[2022-09-17 13:23:44,341] [341ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:23:44,549] [549ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-xnlj",{"micros":144296,"calls":["id_created",{"micros":702,"calls":[]},"session_lookup_time",{"micros":392,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-60",{"micros":128485,"calls":["start_session",{"micros":95325,"calls":["discord-api-6bcb86d44c-cmp6p",{"micros":83418,"calls":["get_user",{"micros":12470},"get_guilds",{"micros":4762},"send_scheduled_deletion_message",{"micros":17},"guild_join_requests",{"micros":34967},"authorized_ip_coro",{"micros":16}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":11478,"calls":[]},"guilds_started",{"micros":96,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":21467,"calls":[]},"connect_finished",{"micros":21472,"calls":[]},"build_ready",{"micros":20,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: c8281044907a14169ec48c29a98f6879).
+[2022-09-17 13:23:44,618] [618ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:23:44,832] [832ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:23:44,832] [832ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:23:45,031] [31ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:23:45,031] [31ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:23:46,618] [618ms] [INFO] : Bot is ready.
+[2022-09-17 13:23:49,032] [32ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:23:49,032] [32ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:23:51,315] [315ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:23:51,316] [316ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:23:51,316] [316ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:23:51,373] [373ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:23:51,374] [374ms] [INFO] : Closing the event loop.
+[2022-09-17 13:23:55,500] [500ms] [INFO] : ===================
+[2022-09-17 13:23:55,500] [500ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:23:55,500] [500ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:23:55,501] [501ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:23:55,506] [506ms] [INFO] : Logging into bot...
+[2022-09-17 13:23:55,507] [507ms] [INFO] : logging in using static token
+[2022-09-17 13:23:55,914] [914ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:23:56,146] [146ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-z7wt",{"micros":135934,"calls":["id_created",{"micros":379,"calls":[]},"session_lookup_time",{"micros":4513,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-117",{"micros":130609,"calls":["start_session",{"micros":85314,"calls":["discord-api-6bcb86d44c-9clgm",{"micros":80900,"calls":["get_user",{"micros":19430},"get_guilds",{"micros":3386},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":26,"calls":[]},"presence_started",{"micros":20543,"calls":[]},"guilds_started",{"micros":100,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":24569,"calls":[]},"connect_finished",{"micros":24574,"calls":[]},"build_ready",{"micros":21,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 35a7d037b354b6bdc7ce2beb1098c17f).
+[2022-09-17 13:23:56,148] [148ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:23:56,352] [352ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:23:56,352] [352ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:23:56,576] [576ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:23:56,577] [577ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:23:58,140] [140ms] [INFO] : Bot is ready.
+[2022-09-17 13:23:59,364] [364ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:23:59,364] [364ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:24:07,817] [817ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:24:07,817] [817ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:24:07,817] [817ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:24:07,872] [872ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:24:07,872] [872ms] [INFO] : Closing the event loop.
+[2022-09-17 13:24:36,082] [82ms] [INFO] : ===================
+[2022-09-17 13:24:36,083] [83ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:24:36,083] [83ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:24:36,083] [83ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:24:36,093] [93ms] [INFO] : Logging into bot...
+[2022-09-17 13:24:36,093] [93ms] [INFO] : logging in using static token
+[2022-09-17 13:24:36,553] [553ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:24:36,784] [784ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-fgbr",{"micros":166033,"calls":["id_created",{"micros":682,"calls":[]},"session_lookup_time",{"micros":347,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-green-prd-2-60",{"micros":164446,"calls":["start_session",{"micros":111757,"calls":["discord-api-6bcb86d44c-lhbzp",{"micros":99667,"calls":["get_user",{"micros":32310},"get_guilds",{"micros":4101},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":6790},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":15821,"calls":[]},"guilds_started",{"micros":101,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":36648,"calls":[]},"connect_finished",{"micros":36653,"calls":[]},"build_ready",{"micros":25,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: aae1a892f765ad12e944109b9e4726a2).
+[2022-09-17 13:24:36,786] [786ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:24:37,020] [20ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:24:37,021] [21ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:24:37,189] [189ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:24:37,189] [189ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:24:38,787] [787ms] [INFO] : Bot is ready.
+[2022-09-17 13:24:41,217] [217ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:24:41,217] [217ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:25:05,905] [905ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:25:05,905] [905ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:25:05,905] [905ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:25:05,970] [970ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:25:05,970] [970ms] [INFO] : Closing the event loop.
+[2022-09-17 13:25:44,044] [44ms] [INFO] : ===================
+[2022-09-17 13:25:44,044] [44ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:25:44,045] [45ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:25:44,045] [45ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:25:44,051] [51ms] [INFO] : Logging into bot...
+[2022-09-17 13:25:44,052] [52ms] [INFO] : logging in using static token
+[2022-09-17 13:25:44,552] [552ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:25:44,708] [708ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-1drb",{"micros":78055,"calls":["id_created",{"micros":746,"calls":[]},"session_lookup_time",{"micros":402,"calls":[]},"session_lookup_finished",{"micros":34,"calls":[]},"discord-sessions-green-prd-2-120",{"micros":76387,"calls":["start_session",{"micros":45803,"calls":["discord-api-6bcb86d44c-krchx",{"micros":40880,"calls":["get_user",{"micros":13722},"get_guilds",{"micros":2803},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":858},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":30,"calls":[]},"presence_started",{"micros":380,"calls":[]},"guilds_started",{"micros":70,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":30058,"calls":[]},"connect_finished",{"micros":30063,"calls":[]},"build_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: be04bc7237cc8551ddebba73d0942f7d).
+[2022-09-17 13:25:44,709] [709ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:25:45,103] [103ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:25:45,103] [103ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:25:45,329] [329ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:25:45,329] [329ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:25:46,719] [719ms] [INFO] : Bot is ready.
+[2022-09-17 13:25:50,645] [645ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:25:50,645] [645ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:26:39,317] [317ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:26:39,317] [317ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:26:39,317] [317ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:26:39,381] [381ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:26:39,381] [381ms] [INFO] : Closing the event loop.
+[2022-09-17 13:26:40,556] [556ms] [INFO] : ===================
+[2022-09-17 13:26:40,556] [556ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:26:40,556] [556ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:26:40,556] [556ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:26:40,564] [564ms] [INFO] : Logging into bot...
+[2022-09-17 13:26:40,564] [564ms] [INFO] : logging in using static token
+[2022-09-17 13:26:41,059] [59ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:26:41,203] [203ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-6db1",{"micros":73055,"calls":["id_created",{"micros":800,"calls":[]},"session_lookup_time",{"micros":5946,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-green-prd-2-26",{"micros":61391,"calls":["start_session",{"micros":43986,"calls":["discord-api-6bcb86d44c-7wlwq",{"micros":36720,"calls":["get_user",{"micros":15454},"get_guilds",{"micros":2499},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":1158,"calls":[]},"guilds_started",{"micros":83,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":16061,"calls":[]},"connect_finished",{"micros":16065,"calls":[]},"build_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 8d0dd4e3a72a0f29c2a219c8d7b54073).
+[2022-09-17 13:26:41,214] [214ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:26:41,487] [487ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:26:41,487] [487ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:26:41,633] [633ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:26:41,633] [633ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:26:43,221] [221ms] [INFO] : Bot is ready.
+[2022-09-17 13:26:44,728] [728ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:26:44,728] [728ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:27:05,837] [837ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:27:05,837] [837ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:27:05,837] [837ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:27:05,896] [896ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:27:05,896] [896ms] [INFO] : Closing the event loop.
+[2022-09-17 13:27:07,182] [182ms] [INFO] : ===================
+[2022-09-17 13:27:07,182] [182ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:27:07,182] [182ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:27:07,183] [183ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:27:07,191] [191ms] [INFO] : Logging into bot...
+[2022-09-17 13:27:07,191] [191ms] [INFO] : logging in using static token
+[2022-09-17 13:27:07,693] [693ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:27:07,838] [838ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-rgrx",{"micros":76278,"calls":["id_created",{"micros":459,"calls":[]},"session_lookup_time",{"micros":423,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-green-prd-2-50",{"micros":74488,"calls":["start_session",{"micros":34724,"calls":["discord-api-6bcb86d44c-5mpmf",{"micros":29965,"calls":["get_user",{"micros":9637},"get_guilds",{"micros":2506},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":617},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":28695,"calls":[]},"guilds_started",{"micros":84,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":10867,"calls":[]},"connect_finished",{"micros":10872,"calls":[]},"build_ready",{"micros":17,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: b45372ca77e4a5b1d388e9413fa39f95).
+[2022-09-17 13:27:07,839] [839ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:27:08,052] [52ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:27:08,052] [52ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:27:08,250] [250ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:27:08,251] [251ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:27:09,844] [844ms] [INFO] : Bot is ready.
+[2022-09-17 13:27:10,847] [847ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:27:10,847] [847ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:27:15,985] [985ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:27:15,985] [985ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:27:15,986] [986ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:27:16,052] [52ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:27:16,052] [52ms] [INFO] : Closing the event loop.
+[2022-09-17 13:27:17,361] [361ms] [INFO] : ===================
+[2022-09-17 13:27:17,362] [362ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:27:17,362] [362ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:27:17,362] [362ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:27:17,370] [370ms] [INFO] : Logging into bot...
+[2022-09-17 13:27:17,370] [370ms] [INFO] : logging in using static token
+[2022-09-17 13:27:17,821] [821ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:27:17,953] [953ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-fthc",{"micros":61912,"calls":["id_created",{"micros":657,"calls":[]},"session_lookup_time",{"micros":586,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-green-prd-2-98",{"micros":59084,"calls":["start_session",{"micros":51220,"calls":["discord-api-6bcb86d44c-9fppf",{"micros":47561,"calls":["get_user",{"micros":17810},"get_guilds",{"micros":3040},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":118},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":368,"calls":[]},"guilds_started",{"micros":72,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7313,"calls":[]},"connect_finished",{"micros":7317,"calls":[]},"build_ready",{"micros":26,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 40d23322f3ab482bee0552cc5fca0c5f).
+[2022-09-17 13:27:17,955] [955ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:27:18,267] [267ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:27:18,267] [267ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:27:18,386] [386ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:27:18,386] [386ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:27:19,974] [974ms] [INFO] : Bot is ready.
+[2022-09-17 13:27:20,504] [504ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:27:20,504] [504ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:27:33,702] [702ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:27:33,702] [702ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:27:33,702] [702ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:27:33,759] [759ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:27:33,759] [759ms] [INFO] : Closing the event loop.
+[2022-09-17 13:28:32,427] [427ms] [INFO] : ===================
+[2022-09-17 13:28:32,427] [427ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:28:32,427] [427ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:28:32,428] [428ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:28:32,436] [436ms] [INFO] : Logging into bot...
+[2022-09-17 13:28:32,436] [436ms] [INFO] : logging in using static token
+[2022-09-17 13:28:32,886] [886ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:28:33,094] [94ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-0tnz",{"micros":136715,"calls":["id_created",{"micros":608,"calls":[]},"session_lookup_time",{"micros":395,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-green-prd-2-105",{"micros":134301,"calls":["start_session",{"micros":104577,"calls":["discord-api-6bcb86d44c-hfd5r",{"micros":94880,"calls":["get_user",{"micros":31915},"get_guilds",{"micros":5681},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":3529,"calls":[]},"guilds_started",{"micros":77,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":26006,"calls":[]},"connect_finished",{"micros":26011,"calls":[]},"build_ready",{"micros":20,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 9ec1d1982f588ebc472b6805343d1b8b).
+[2022-09-17 13:28:33,096] [96ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:28:33,341] [341ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:28:33,341] [341ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:28:33,479] [479ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:28:33,479] [479ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:28:35,111] [111ms] [INFO] : Bot is ready.
+[2022-09-17 13:28:35,913] [913ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:28:35,913] [913ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:28:41,693] [693ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:28:41,693] [693ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:28:41,693] [693ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:28:41,757] [757ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:28:41,757] [757ms] [INFO] : Closing the event loop.
+[2022-09-17 13:29:03,762] [762ms] [INFO] : ===================
+[2022-09-17 13:29:03,762] [762ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:29:03,762] [762ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:29:03,764] [764ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:29:03,771] [771ms] [INFO] : Logging into bot...
+[2022-09-17 13:29:03,772] [772ms] [INFO] : logging in using static token
+[2022-09-17 13:29:04,232] [232ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:29:04,387] [387ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-ksl3",{"micros":91618,"calls":["id_created",{"micros":609,"calls":[]},"session_lookup_time",{"micros":686,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-158",{"micros":89256,"calls":["start_session",{"micros":53457,"calls":["discord-api-6bcb86d44c-pthk6",{"micros":48271,"calls":["get_user",{"micros":9643},"get_guilds",{"micros":6974},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":2403},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":40,"calls":[]},"presence_started",{"micros":16494,"calls":[]},"guilds_started",{"micros":73,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19160,"calls":[]},"connect_finished",{"micros":19166,"calls":[]},"build_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: b72e76a3a028f033d7d6e3b1f95c4c4a).
+[2022-09-17 13:29:04,392] [392ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:29:04,626] [626ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:29:04,626] [626ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:29:04,771] [771ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:29:04,771] [771ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:29:06,400] [400ms] [INFO] : Bot is ready.
+[2022-09-17 13:29:07,719] [719ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:29:07,719] [719ms] [INFO] : nextcord.Client: Calling your application command now about
+[2022-09-17 13:29:34,697] [697ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:29:34,698] [698ms] [INFO] : nextcord.Client: Calling your application command now dontasktoask
+[2022-09-17 13:29:45,545] [545ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:29:45,545] [545ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 13:33:13,830] [830ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:33:13,830] [830ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:33:13,831] [831ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:33:13,896] [896ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:33:13,896] [896ms] [INFO] : Closing the event loop.
+[2022-09-17 13:35:22,259] [259ms] [INFO] : ===================
+[2022-09-17 13:35:22,259] [259ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:35:22,259] [259ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:35:22,261] [261ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:35:22,269] [269ms] [INFO] : Logging into bot...
+[2022-09-17 13:35:22,269] [269ms] [INFO] : logging in using static token
+[2022-09-17 13:35:22,797] [797ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:35:22,942] [942ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-ggjm",{"micros":58528,"calls":["id_created",{"micros":685,"calls":[]},"session_lookup_time",{"micros":3040,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-green-prd-2-59",{"micros":53421,"calls":["start_session",{"micros":44454,"calls":["discord-api-6bcb86d44c-bzt8g",{"micros":39599,"calls":["get_user",{"micros":9634},"get_guilds",{"micros":2904},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":807},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":64,"calls":[]},"presence_started",{"micros":956,"calls":[]},"guilds_started",{"micros":65,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7815,"calls":[]},"connect_finished",{"micros":7820,"calls":[]},"build_ready",{"micros":32,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: a3a3708b7af6bf7cab969055c498b87a).
+[2022-09-17 13:35:22,943] [943ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:35:23,163] [163ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:35:23,163] [163ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:35:23,329] [329ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:35:23,329] [329ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:35:23,451] [451ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('role', 1, 1017999660603944960)
+[2022-09-17 13:35:24,944] [944ms] [INFO] : Bot is ready.
+[2022-09-17 13:35:35,137] [137ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:35:35,137] [137ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:35:44,595] [595ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:35:44,595] [595ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:35:44,595] [595ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:35:44,657] [657ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:35:44,657] [657ms] [INFO] : Closing the event loop.
+[2022-09-17 13:36:35,734] [734ms] [INFO] : ===================
+[2022-09-17 13:36:35,734] [734ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:36:35,734] [734ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:36:35,736] [736ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:36:35,745] [745ms] [INFO] : Logging into bot...
+[2022-09-17 13:36:35,745] [745ms] [INFO] : logging in using static token
+[2022-09-17 13:36:36,247] [247ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:36:36,376] [376ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-qbw2",{"micros":65640,"calls":["id_created",{"micros":689,"calls":[]},"session_lookup_time",{"micros":421,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-green-prd-2-187",{"micros":61001,"calls":["start_session",{"micros":45697,"calls":["discord-api-6bcb86d44c-d2zwp",{"micros":41424,"calls":["get_user",{"micros":9218},"get_guilds",{"micros":9196},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1508},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":32,"calls":[]},"presence_started",{"micros":421,"calls":[]},"guilds_started",{"micros":95,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14684,"calls":[]},"connect_finished",{"micros":14689,"calls":[]},"build_ready",{"micros":30,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: be43849b67f9346da1c1e23aa2cbff19).
+[2022-09-17 13:36:36,382] [382ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:36:36,612] [612ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:36:36,613] [613ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:36:36,819] [819ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:36:36,819] [819ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:36:38,387] [387ms] [INFO] : Bot is ready.
+[2022-09-17 13:36:58,455] [455ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:36:58,455] [455ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:37:02,855] [855ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:37:02,855] [855ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:37:02,855] [855ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:37:02,913] [913ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:37:02,913] [913ms] [INFO] : Closing the event loop.
+[2022-09-17 13:37:10,050] [50ms] [INFO] : ===================
+[2022-09-17 13:37:10,051] [51ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:37:10,051] [51ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:37:10,052] [52ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:37:10,061] [61ms] [INFO] : Logging into bot...
+[2022-09-17 13:37:10,061] [61ms] [INFO] : logging in using static token
+[2022-09-17 13:37:10,695] [695ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:37:10,839] [839ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-m9d0",{"micros":73793,"calls":["id_created",{"micros":606,"calls":[]},"session_lookup_time",{"micros":2221,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-green-prd-2-17",{"micros":69721,"calls":["start_session",{"micros":64279,"calls":["discord-api-6bcb86d44c-l2x2t",{"micros":57350,"calls":["get_user",{"micros":9094},"get_guilds",{"micros":6292},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":33,"calls":[]},"presence_started",{"micros":869,"calls":[]},"guilds_started",{"micros":74,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4398,"calls":[]},"connect_finished",{"micros":4403,"calls":[]},"build_ready",{"micros":26,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: f11da4886ad3f2e977c09406b0b8d756).
+[2022-09-17 13:37:10,840] [840ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:37:11,069] [69ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:37:11,069] [69ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:37:11,221] [221ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:37:11,221] [221ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:37:12,843] [843ms] [INFO] : Bot is ready.
+[2022-09-17 13:37:14,769] [769ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:37:14,769] [769ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:37:14,769] [769ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:37:14,826] [826ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:37:14,827] [827ms] [INFO] : Closing the event loop.
+[2022-09-17 13:37:20,283] [283ms] [INFO] : ===================
+[2022-09-17 13:37:20,283] [283ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:37:20,283] [283ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:37:20,283] [283ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:37:20,292] [292ms] [INFO] : Logging into bot...
+[2022-09-17 13:37:20,292] [292ms] [INFO] : logging in using static token
+[2022-09-17 13:37:20,762] [762ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:37:20,901] [901ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-bdnn",{"micros":73324,"calls":["id_created",{"micros":600,"calls":[]},"session_lookup_time",{"micros":6397,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-green-prd-2-164",{"micros":60137,"calls":["start_session",{"micros":44692,"calls":["discord-api-6bcb86d44c-kcrg9",{"micros":39052,"calls":["get_user",{"micros":8914},"get_guilds",{"micros":6560},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":1651,"calls":[]},"guilds_started",{"micros":80,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":13618,"calls":[]},"connect_finished",{"micros":13623,"calls":[]},"build_ready",{"micros":20,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 913606fccc18667d9405f2798aa7a5ee).
+[2022-09-17 13:37:20,911] [911ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:37:21,136] [136ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:37:21,136] [136ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:37:21,268] [268ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:37:21,269] [269ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:37:22,912] [912ms] [INFO] : Bot is ready.
+[2022-09-17 13:37:26,655] [655ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:37:26,655] [655ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:37:29,046] [46ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:37:29,046] [46ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:37:29,046] [46ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:37:29,109] [109ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:37:29,109] [109ms] [INFO] : Closing the event loop.
+[2022-09-17 13:37:45,394] [394ms] [INFO] : ===================
+[2022-09-17 13:37:45,394] [394ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:37:45,394] [394ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:37:45,395] [395ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:37:45,403] [403ms] [INFO] : Logging into bot...
+[2022-09-17 13:37:45,404] [404ms] [INFO] : logging in using static token
+[2022-09-17 13:37:45,824] [824ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:37:46,000] [0ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-07jt",{"micros":112647,"calls":["id_created",{"micros":533,"calls":[]},"session_lookup_time",{"micros":1885,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-green-prd-2-32",{"micros":103279,"calls":["start_session",{"micros":87779,"calls":["discord-api-6bcb86d44c-tgtwt",{"micros":78333,"calls":["get_user",{"micros":22434},"get_guilds",{"micros":7510},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":64,"calls":[]},"presence_started",{"micros":12029,"calls":[]},"guilds_started",{"micros":71,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":3280,"calls":[]},"connect_finished",{"micros":3285,"calls":[]},"build_ready",{"micros":22,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b13d1bb4c490740c4a9564efb9d6f603).
+[2022-09-17 13:37:46,021] [21ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:37:46,262] [262ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:37:46,262] [262ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:37:46,438] [438ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:37:46,438] [438ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:37:48,028] [28ms] [INFO] : Bot is ready.
+[2022-09-17 13:37:56,246] [246ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:37:56,246] [246ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:38:11,559] [559ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:38:11,559] [559ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:38:22,669] [669ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:38:22,669] [669ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:38:22,669] [669ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:38:22,730] [730ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:38:22,730] [730ms] [INFO] : Closing the event loop.
+[2022-09-17 13:40:00,314] [314ms] [INFO] : ===================
+[2022-09-17 13:40:00,314] [314ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:40:00,314] [314ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:40:00,315] [315ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:40:00,324] [324ms] [INFO] : Logging into bot...
+[2022-09-17 13:40:00,324] [324ms] [INFO] : logging in using static token
+[2022-09-17 13:40:00,889] [889ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:40:01,071] [71ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-stw0",{"micros":106672,"calls":["id_created",{"micros":619,"calls":[]},"session_lookup_time",{"micros":1024,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-119",{"micros":103911,"calls":["start_session",{"micros":87207,"calls":["discord-api-6bcb86d44c-4zhwr",{"micros":82772,"calls":["get_user",{"micros":16451},"get_guilds",{"micros":5052},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":45,"calls":[]},"presence_started",{"micros":1459,"calls":[]},"guilds_started",{"micros":92,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15060,"calls":[]},"connect_finished",{"micros":15065,"calls":[]},"build_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b1748aa636b3fbef065f700a10c83077).
+[2022-09-17 13:40:01,072] [72ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:40:01,399] [399ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:40:01,399] [399ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:40:01,526] [526ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:40:01,526] [526ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:40:03,081] [81ms] [INFO] : Bot is ready.
+[2022-09-17 13:40:06,964] [964ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:40:06,964] [964ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:40:21,927] [927ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:40:21,927] [927ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:40:28,439] [439ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:40:28,439] [439ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:40:28,439] [439ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 13:40:28,500] [500ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:40:28,500] [500ms] [INFO] : Closing the event loop.
+[2022-09-17 13:41:31,544] [544ms] [INFO] : ===================
+[2022-09-17 13:41:31,544] [544ms] [INFO] : Made by Blind#6637
+[2022-09-17 13:41:31,544] [544ms] [INFO] : Pre loading cogs...
+[2022-09-17 13:41:31,545] [545ms] [INFO] : All cogs pre loaded.
+[2022-09-17 13:41:31,552] [552ms] [INFO] : Logging into bot...
+[2022-09-17 13:41:31,552] [552ms] [INFO] : logging in using static token
+[2022-09-17 13:41:32,021] [21ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 13:41:32,240] [240ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-k6s3",{"micros":150734,"calls":["id_created",{"micros":623,"calls":[]},"session_lookup_time",{"micros":2464,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-green-prd-2-106",{"micros":146587,"calls":["start_session",{"micros":87222,"calls":["discord-api-6bcb86d44c-4kpk7",{"micros":82335,"calls":["get_user",{"micros":20538},"get_guilds",{"micros":5571},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":36,"calls":[]},"presence_started",{"micros":17107,"calls":[]},"guilds_started",{"micros":79,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":42096,"calls":[]},"connect_finished",{"micros":42101,"calls":[]},"build_ready",{"micros":19,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":2,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: f804ef8b166f9e4e4a23de39f5632d66).
+[2022-09-17 13:41:32,241] [241ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 13:41:32,476] [476ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:41:32,476] [476ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 13:41:32,615] [615ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 13:41:32,615] [615ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 13:41:34,249] [249ms] [INFO] : Bot is ready.
+[2022-09-17 13:41:37,143] [143ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 13:41:37,143] [143ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 13:41:44,410] [410ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 13:41:44,410] [410ms] [INFO] : Cleaning up tasks.
+[2022-09-17 13:41:44,410] [410ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-17 13:41:44,476] [476ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 13:41:44,476] [476ms] [INFO] : Closing the event loop.
+[2022-09-17 14:14:49,496] [496ms] [INFO] : ===================
+[2022-09-17 14:14:49,496] [496ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:14:49,496] [496ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:14:49,498] [498ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:14:49,506] [506ms] [INFO] : Logging into bot...
+[2022-09-17 14:14:49,506] [506ms] [INFO] : logging in using static token
+[2022-09-17 14:14:50,023] [23ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 14:14:50,169] [169ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-px9j",{"micros":79387,"calls":["id_created",{"micros":673,"calls":[]},"session_lookup_time",{"micros":13332,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-green-prd-2-194",{"micros":64378,"calls":["start_session",{"micros":50517,"calls":["discord-api-6bcb86d44c-89djl",{"micros":45774,"calls":["get_user",{"micros":11128},"get_guilds",{"micros":3727},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":907},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":36,"calls":[]},"presence_started",{"micros":497,"calls":[]},"guilds_started",{"micros":94,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":13186,"calls":[]},"connect_finished",{"micros":13192,"calls":[]},"build_ready",{"micros":18,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: fab00bf936af632085367487cb37c051).
+[2022-09-17 14:14:50,170] [170ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 14:14:50,429] [429ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:14:50,429] [429ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 14:14:50,573] [573ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:14:50,573] [573ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 14:14:52,188] [188ms] [INFO] : Bot is ready.
+[2022-09-17 14:14:55,794] [794ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:14:55,794] [794ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:15:02,576] [576ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 14:15:02,576] [576ms] [INFO] : Cleaning up tasks.
+[2022-09-17 14:15:02,576] [576ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-17 14:15:02,638] [638ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 14:15:02,639] [639ms] [INFO] : Closing the event loop.
+[2022-09-17 14:15:07,540] [540ms] [INFO] : ===================
+[2022-09-17 14:15:07,541] [541ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:15:07,541] [541ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:15:07,541] [541ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:15:07,549] [549ms] [INFO] : Logging into bot...
+[2022-09-17 14:15:07,550] [550ms] [INFO] : logging in using static token
+[2022-09-17 14:15:08,122] [122ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 14:15:08,301] [301ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-9fl1",{"micros":112249,"calls":["id_created",{"micros":616,"calls":[]},"session_lookup_time",{"micros":4933,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-15",{"micros":102820,"calls":["start_session",{"micros":49970,"calls":["discord-api-6bcb86d44c-ddfl4",{"micros":35564,"calls":["get_user",{"micros":10615},"get_guilds",{"micros":2918},"send_scheduled_deletion_message",{"micros":11},"guild_join_requests",{"micros":485},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":73,"calls":[]},"presence_started",{"micros":33212,"calls":[]},"guilds_started",{"micros":88,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19414,"calls":[]},"connect_finished",{"micros":19421,"calls":[]},"build_ready",{"micros":23,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: de164656cb9ba687863a3f512c328bd2).
+[2022-09-17 14:15:08,369] [369ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 14:15:08,590] [590ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:15:08,590] [590ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 14:15:08,715] [715ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:15:08,715] [715ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 14:15:10,369] [369ms] [INFO] : Bot is ready.
+[2022-09-17 14:15:13,424] [424ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:15:13,424] [424ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:15:18,499] [499ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:15:18,499] [499ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:15:44,080] [80ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:15:44,080] [80ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:16:15,826] [826ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:16:15,826] [826ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:16:34,954] [954ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 14:16:34,954] [954ms] [INFO] : Cleaning up tasks.
+[2022-09-17 14:16:34,954] [954ms] [INFO] : Cleaning up after 3 tasks.
+[2022-09-17 14:16:35,017] [17ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 14:16:35,017] [17ms] [INFO] : Closing the event loop.
+[2022-09-17 14:17:09,437] [437ms] [INFO] : ===================
+[2022-09-17 14:17:09,437] [437ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:17:09,437] [437ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:17:09,438] [438ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:17:09,447] [447ms] [INFO] : Logging into bot...
+[2022-09-17 14:17:09,447] [447ms] [INFO] : logging in using static token
+[2022-09-17 14:17:10,170] [170ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 14:17:10,476] [476ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-82g2",{"micros":115277,"calls":["id_created",{"micros":715,"calls":[]},"session_lookup_time",{"micros":7213,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-green-prd-2-129",{"micros":106348,"calls":["start_session",{"micros":65358,"calls":["discord-api-6bcb86d44c-4lrcx",{"micros":58548,"calls":["get_user",{"micros":9592},"get_guilds",{"micros":7886},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":207},"authorized_ip_coro",{"micros":13}]}]},"starting_guild_connect",{"micros":39,"calls":[]},"presence_started",{"micros":28719,"calls":[]},"guilds_started",{"micros":91,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":12054,"calls":[]},"connect_finished",{"micros":12074,"calls":[]},"build_ready",{"micros":27,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":2,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 564939fd0d127992d6adebf15fe4ddbb).
+[2022-09-17 14:17:10,478] [478ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 14:17:10,715] [715ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:17:10,715] [715ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 14:17:10,863] [863ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:17:10,863] [863ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 14:17:12,483] [483ms] [INFO] : Bot is ready.
+[2022-09-17 14:17:14,858] [858ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:17:14,859] [859ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:17:32,447] [447ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:17:32,447] [447ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:18:29,126] [126ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:18:29,126] [126ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:18:48,145] [145ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:18:48,145] [145ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:20:13,077] [77ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:20:13,077] [77ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:21:17,556] [556ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:21:17,556] [556ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:21:56,144] [144ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:21:56,144] [144ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:22:41,805] [805ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:22:41,805] [805ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:22:45,709] [709ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:22:45,709] [709ms] [INFO] : nextcord.Client: Calling your application command now role
+[2022-09-17 14:24:24,816] [816ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 14:24:24,816] [816ms] [INFO] : Cleaning up tasks.
+[2022-09-17 14:24:24,816] [816ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-17 14:24:24,956] [956ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 14:24:24,956] [956ms] [INFO] : Closing the event loop.
+[2022-09-17 14:24:26,262] [262ms] [INFO] : ===================
+[2022-09-17 14:24:26,262] [262ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:24:26,262] [262ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:24:26,264] [264ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:24:26,273] [273ms] [INFO] : Logging into bot...
+[2022-09-17 14:24:26,273] [273ms] [INFO] : logging in using static token
+[2022-09-17 14:24:26,774] [774ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 14:24:26,966] [966ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-2xbh",{"micros":119966,"calls":["id_created",{"micros":697,"calls":[]},"session_lookup_time",{"micros":1489,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-17",{"micros":116479,"calls":["start_session",{"micros":102140,"calls":["discord-api-6bcb86d44c-vz4rl",{"micros":97533,"calls":["get_user",{"micros":29063},"get_guilds",{"micros":14022},"send_scheduled_deletion_message",{"micros":13},"guild_join_requests",{"micros":5457},"authorized_ip_coro",{"micros":11}]}]},"starting_guild_connect",{"micros":42,"calls":[]},"presence_started",{"micros":532,"calls":[]},"guilds_started",{"micros":126,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":13556,"calls":[]},"connect_finished",{"micros":13562,"calls":[]},"build_ready",{"micros":40,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 012d2fb369310ef361ff10e00e4b3215).
+[2022-09-17 14:24:26,973] [973ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 14:24:27,207] [207ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:24:27,207] [207ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 14:24:27,345] [345ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:24:27,345] [345ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 14:24:28,972] [972ms] [INFO] : Bot is ready.
+[2022-09-17 14:24:29,166] [166ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:24:29,166] [166ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:24:33,585] [585ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:24:33,585] [585ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:24:49,405] [405ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 14:24:49,405] [405ms] [INFO] : Cleaning up tasks.
+[2022-09-17 14:24:49,405] [405ms] [INFO] : Cleaning up after 3 tasks.
+[2022-09-17 14:24:49,545] [545ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 14:24:49,545] [545ms] [INFO] : Closing the event loop.
+[2022-09-17 14:26:25,048] [48ms] [INFO] : ===================
+[2022-09-17 14:26:25,048] [48ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:26:25,048] [48ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:26:25,050] [50ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:26:25,059] [59ms] [INFO] : Logging into bot...
+[2022-09-17 14:26:25,059] [59ms] [INFO] : logging in using static token
+[2022-09-17 14:26:25,569] [569ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 14:26:25,729] [729ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-v36n",{"micros":90835,"calls":["id_created",{"micros":744,"calls":[]},"session_lookup_time",{"micros":433,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-55",{"micros":88585,"calls":["start_session",{"micros":43255,"calls":["discord-api-6bcb86d44c-tn2pk",{"micros":38628,"calls":["get_user",{"micros":9217},"get_guilds",{"micros":2998},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":1294},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":34,"calls":[]},"presence_started",{"micros":1078,"calls":[]},"guilds_started",{"micros":67,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44106,"calls":[]},"connect_finished",{"micros":44111,"calls":[]},"build_ready",{"micros":18,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: bb6a8a3bc73f0314b371b6dde199069f).
+[2022-09-17 14:26:25,730] [730ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 14:26:26,006] [6ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:26:26,007] [7ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 14:26:26,163] [163ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:26:26,163] [163ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 14:26:27,730] [730ms] [INFO] : Bot is ready.
+[2022-09-17 14:26:30,415] [415ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:26:30,415] [415ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:27:49,157] [157ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 14:27:49,158] [158ms] [INFO] : Cleaning up tasks.
+[2022-09-17 14:27:49,158] [158ms] [INFO] : Cleaning up after 1 tasks.
+[2022-09-17 14:27:49,220] [220ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 14:27:49,220] [220ms] [INFO] : Closing the event loop.
+[2022-09-17 14:30:14,011] [11ms] [INFO] : ===================
+[2022-09-17 14:30:14,011] [11ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:30:14,011] [11ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:30:14,012] [12ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:30:21,089] [89ms] [INFO] : ===================
+[2022-09-17 14:30:21,089] [89ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:30:21,089] [89ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:30:21,091] [91ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:30:21,108] [108ms] [INFO] : Logging into bot...
+[2022-09-17 14:30:21,108] [108ms] [INFO] : logging in using static token
+[2022-09-17 14:30:21,614] [614ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 14:30:21,864] [864ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-b7j3",{"micros":141458,"calls":["id_created",{"micros":804,"calls":[]},"session_lookup_time",{"micros":692,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-82",{"micros":138795,"calls":["start_session",{"micros":60841,"calls":["discord-api-6bcb86d44c-vdpsl",{"micros":53947,"calls":["get_user",{"micros":8071},"get_guilds",{"micros":11248},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":186},"authorized_ip_coro",{"micros":14}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":8153,"calls":[]},"guilds_started",{"micros":92,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":69596,"calls":[]},"connect_finished",{"micros":69601,"calls":[]},"build_ready",{"micros":21,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]},"clean_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 69210595d2cb44e7cff78f263916cda0).
+[2022-09-17 14:30:21,865] [865ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 14:30:22,108] [108ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:30:22,108] [108ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 14:30:22,283] [283ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:30:22,283] [283ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 14:30:23,869] [869ms] [INFO] : Bot is ready.
+[2022-09-17 14:30:27,557] [557ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:30:27,557] [557ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:30:36,649] [649ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:30:36,649] [649ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:30:44,473] [473ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:30:44,473] [473ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:30:49,331] [331ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 14:30:49,331] [331ms] [INFO] : Cleaning up tasks.
+[2022-09-17 14:30:49,331] [331ms] [INFO] : Cleaning up after 2 tasks.
+[2022-09-17 14:30:49,388] [388ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 14:30:49,388] [388ms] [INFO] : Closing the event loop.
+[2022-09-17 14:32:00,097] [97ms] [INFO] : ===================
+[2022-09-17 14:32:00,098] [98ms] [INFO] : Made by Blind#6637
+[2022-09-17 14:32:00,098] [98ms] [INFO] : Pre loading cogs...
+[2022-09-17 14:32:00,098] [98ms] [INFO] : All cogs pre loaded.
+[2022-09-17 14:32:00,113] [113ms] [INFO] : Logging into bot...
+[2022-09-17 14:32:00,113] [113ms] [INFO] : logging in using static token
+[2022-09-17 14:32:00,691] [691ms] [INFO] : Shard ID None has sent the IDENTIFY payload.
+[2022-09-17 14:32:00,871] [871ms] [INFO] : Shard ID None has connected to Gateway: ["gateway-prd-main-31vd",{"micros":97156,"calls":["id_created",{"micros":700,"calls":[]},"session_lookup_time",{"micros":5633,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-green-prd-2-67",{"micros":89559,"calls":["start_session",{"micros":73137,"calls":["discord-api-6bcb86d44c-t4s2g",{"micros":68136,"calls":["get_user",{"micros":28914},"get_guilds",{"micros":6910},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":16}]}]},"starting_guild_connect",{"micros":31,"calls":[]},"presence_started",{"micros":15891,"calls":[]},"guilds_started",{"micros":106,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":373,"calls":[]},"connect_finished",{"micros":377,"calls":[]},"build_ready",{"micros":15,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]},"clean_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 365ac2420956f1ae9af5c7398b72caa3).
+[2022-09-17 14:32:00,872] [872ms] [INFO] : nextcord.Client: Rolling out commands to guild Blind is qt|1017999660603944960
+[2022-09-17 14:32:01,148] [148ms] [INFO] : nextcord.ConnectionState: Command with signature ('ban', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:32:01,148] [148ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('ban', 1, 1017999660603944960)
+[2022-09-17 14:32:01,302] [302ms] [INFO] : nextcord.ConnectionState: Command with signature ('kick', 1, 1017999660603944960) found but failed deep check, updating.
+[2022-09-17 14:32:01,302] [302ms] [INFO] : nextcord.ConnectionState: Registering command with signature ('kick', 1, 1017999660603944960)
+[2022-09-17 14:32:02,890] [890ms] [INFO] : Bot is ready.
+[2022-09-17 14:32:04,405] [405ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:32:04,405] [405ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:32:09,876] [876ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:32:09,876] [876ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:32:32,697] [697ms] [INFO] : nextcord.Client: Found an interaction command.
+[2022-09-17 14:32:32,697] [697ms] [INFO] : nextcord.Client: Calling your application command now nuke
+[2022-09-17 14:33:39,545] [545ms] [INFO] : Received signal to terminate bot and event loop.
+[2022-09-17 14:33:39,545] [545ms] [INFO] : Cleaning up tasks.
+[2022-09-17 14:33:39,545] [545ms] [INFO] : Cleaning up after 4 tasks.
+[2022-09-17 14:33:39,606] [606ms] [INFO] : All tasks finished cancelling.
+[2022-09-17 14:33:39,606] [606ms] [INFO] : Closing the event loop.

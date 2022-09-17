@@ -1,7 +1,9 @@
-import nextcord
+import nextcord, json, cooldowns
 from nextcord.ext import commands
 from nextcord import Interaction, ButtonStyle
 from nextcord.ui import Button, View
+from cooldowns import CooldownBucket
+from cooldowns import CallableOnCooldown
 
 class nukeButton(Button):
     def __init__(self, id):
@@ -39,7 +41,8 @@ class Confirm(Button):
             new_channel = await interaction.channel.clone()
             await interaction.channel.delete()
             await new_channel.edit(position=interaction.channel.position)
-            await new_channel.send("This channel has been nuked.")
+            await new_channel.send("This channel has been nuked.\nhttps://d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/3ae0064c555042218c2a6d36afaa4a21/02d61729ea234503a70bc812639fdaa3_1629821918.gif")
+            
 
 class nuke(commands.Cog):
     def __init__(self, bot):
@@ -48,17 +51,25 @@ class nuke(commands.Cog):
     testing_guild_id = 1017999660603944960
 
     @nextcord.slash_command(guild_ids=[testing_guild_id], description="Nuke a specified channel")
-    @commands.has_permissions(manage_channels=True)
+    @cooldowns.cooldown(1,15, bucket=cooldowns.SlashBucket.author)
     async def nuke(self, interaction: Interaction):
-        await interaction.response.defer()
-        view = View()
-        view.add_item(Confirm(interaction.user.id))
-        view.add_item(nukeButton(interaction.user.id))
-        em = nextcord.Embed(
-            description="Are you sure you want to nuke this channel?\nThis will affect your servers activity progress.",
-            color=0xFFFF00
-        )
-        await interaction.followup.send(embed=em, view=view)
+        if interaction.user.guild_permissions.manage_channels:
+            await interaction.response.defer()
+            view = View()
+            view.add_item(Confirm(interaction.user.id))
+            view.add_item(nukeButton(interaction.user.id))
+            em = nextcord.Embed(
+                description="Are you sure you want to nuke this channel?\nThis will affect your servers activity progress.",
+                color=0xFFFF00
+            )
+            await interaction.followup.send(embed=em, view=view)
+        else:
+            await interaction.response.send_message("You are lacking the `MANAGE_CHANNELS` permission.", ephemeral=True)
+
+    @nuke.error
+    async def nuke_error(self, interaction: Interaction, error):
+        if isinstance(error, CallableOnCooldown):
+            await interaction.response.send_message(f"You are on cooldown for {error.retry_after} seconds.", ephemeral=True)
 
 
 def setup(bot):
