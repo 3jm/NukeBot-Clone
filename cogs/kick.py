@@ -12,6 +12,13 @@ class kick(commands.Cog):
     async def kick(self, interaction: Interaction, reason, member: nextcord.Member = SlashOption(name="member", description="Mention a user", required=True)):
         if interaction.user.guild_permissions.kick_members:
             await interaction.response.defer()
+
+            if member == self.bot.user:
+                await interaction.followup.send("I cannot kick myself.", ephemeral=True)
+                
+            if member == interaction.user:
+                await interaction.followup.send("You cannot kick yourself.", ephemeral=True)
+
             await member.kick(reason=reason)
             em = nextcord.Embed(
                 description = f"{member.mention} has been kicked for `{reason}`.",

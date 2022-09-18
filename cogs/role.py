@@ -10,7 +10,7 @@ class role(commands.Cog):
     testing_guild_id = 1017999660603944960
 
     @nextcord.slash_command(guild_ids=[testing_guild_id], description="Give a role to a specified user")
-    async def role(self, interaction: Interaction, role: nextcord.Role = SlashOption(name="role", description="Select a role", required=True), member: nextcord.Member = SlashOption(name="member", description="Mention a user", required=True)):
+    async def role(self, interaction: Interaction, role: nextcord.Role = SlashOption(name="role", description="Pick a role", required=True), member: nextcord.Member = SlashOption(name="member", description="Mention a user", required=True)):
         if interaction.user.guild_permissions.manage_roles:
             if role in member.roles:
                 async def button_callback(interaction: Interaction):

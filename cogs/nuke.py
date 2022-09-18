@@ -37,12 +37,16 @@ class Confirm(Button):
                 description = "Nuking channel...",
                 color = 0x202225
             )
+            self.view.stop()
             await interaction.response.send_message(embed = em, ephemeral=True)
-            new_channel = await interaction.channel.clone()
-            await interaction.channel.delete()
-            await new_channel.edit(position=interaction.channel.position)
-            await new_channel.send("This channel has been nuked.\nhttps://d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/3ae0064c555042218c2a6d36afaa4a21/02d61729ea234503a70bc812639fdaa3_1629821918.gif")
-            
+            try:
+                new_channel = await interaction.channel.clone()
+                await interaction.channel.delete()
+                await new_channel.edit(position=interaction.channel.position)
+                await new_channel.send("This channel has been nuked.\nhttps://d3kxs6kpbh59hp.cloudfront.net/community/COMMUNITY/3ae0064c555042218c2a6d36afaa4a21/02d61729ea234503a70bc812639fdaa3_1629821918.gif")
+            except Exception as e:
+                await interaction.followup.send("I am not allowed to nuke this type of channel. Reverting changes.\n\nPossible reasons why I cannot nuke this channel:\n• It is a **community updates** channel\n• It is a **community rules** channel", ephemeral=True)
+                await new_channel.delete()
 
 class nuke(commands.Cog):
     def __init__(self, bot):
@@ -54,10 +58,18 @@ class nuke(commands.Cog):
     @cooldowns.cooldown(1,15, bucket=cooldowns.SlashBucket.author)
     async def nuke(self, interaction: Interaction):
         if interaction.user.guild_permissions.manage_channels:
+            if interaction.channel.type == nextcord.ChannelType.news:
+                await interaction.response.send_message("You can't nuke a announcement channel.", ephemeral=True)
+
             await interaction.response.defer()
             view = View()
             view.add_item(Confirm(interaction.user.id))
             view.add_item(nukeButton(interaction.user.id))
+
+            async def on_timeout(self):
+                for item in view.children:
+                    item.disabled = True
+
             em = nextcord.Embed(
                 description="Are you sure you want to nuke this channel?\nThis will affect your servers activity progress.",
                 color=0xFFFF00

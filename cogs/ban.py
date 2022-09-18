@@ -13,6 +13,12 @@ class ban(commands.Cog):
     async def ban(self, interaction: Interaction, reason, member: nextcord.Member = SlashOption(name="member", description="Mention a user", required=True)):
         await interaction.response.defer()
         if interaction.user.guild_permissions.ban_members:
+            if member == self.bot.user:
+                await interaction.followup.send("I cannot ban myself.", ephemeral=True)
+
+            elif member == interaction.user:
+                await interaction.followup.send("You cannot ban yourself.", ephemeral=True)
+
             await member.ban(reason=reason)
             em = nextcord.Embed(
                 description = f"{member.mention} has been banned for `{reason}`.",

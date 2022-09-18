@@ -8,13 +8,13 @@ from nextcord import Interaction
 log.basicConfig(filename='bot.log', level=log.INFO, format='[%(asctime)s] [%(msecs)dms] [%(levelname)s] : %(message)s')
 
 # Discord Bot Token
-token = ""
+token = "MTAyMDA3NzEyODAyMjI0MTM2MQ.G-cl3E.1XJXosbiziu9nQX7zfvtKUf0gCeCojw0HQ3aZ8"
 
 # Discord Bot Intents
 intents = nextcord.Intents.all()
 
 # Discord Bot Initilization
-bot = commands.Bot(intents=intents)
+bot = commands.AutoShardedBot(intents=intents)
 
 # Discord Bot Local slash command registration
 testing_guild_id = 1017999660603944960
@@ -50,7 +50,7 @@ def preload_cogs():
 def Bot():
     @bot.event
     async def on_ready():
-        await bot.change_presence(activity=nextcord.Activity(type=nextcord.ActivityType.listening, name=f"Made by Blind#6637 | NukeBot Clone"))
+        await bot.change_presence(activity=nextcord.Activity(type=nextcord.ActivityType.listening, name=f"/help | {bot.shard_count} shards"))
         log.info('Bot is ready.')
         print("ready") 
 
